@@ -15,11 +15,11 @@
 		F64C73651B4A3A41008E976F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64C73641B4A3A41008E976F /* Images.xcassets */; };
 		F64C73681B4A3A41008E976F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64C73661B4A3A41008E976F /* LaunchScreen.xib */; };
 		F64C73741B4A3A41008E976F /* CJCustomPushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F64C73731B4A3A41008E976F /* CJCustomPushTests.m */; };
-		F64C73861B4A3A9C008E976F /* CJCustomPush.m in Sources */ = {isa = PBXBuildFile; fileRef = F64C737F1B4A3A9C008E976F /* CJCustomPush.m */; };
-		F64C73871B4A3A9C008E976F /* DismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F64C73821B4A3A9C008E976F /* DismissingAnimator.m */; };
-		F64C73881B4A3A9C008E976F /* PresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F64C73851B4A3A9C008E976F /* PresentingAnimator.m */; };
 		F64C738C1B4A3AE9008E976F /* CouponModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64C738A1B4A3AE9008E976F /* CouponModelViewController.m */; };
 		F64C738D1B4A3AE9008E976F /* CouponModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F64C738B1B4A3AE9008E976F /* CouponModelViewController.xib */; };
+		F665695D1B4E2AD60010D4F2 /* CJCustomPush.m in Sources */ = {isa = PBXBuildFile; fileRef = F66569561B4E2AD60010D4F2 /* CJCustomPush.m */; };
+		F665695E1B4E2AD60010D4F2 /* DismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F66569591B4E2AD60010D4F2 /* DismissingAnimator.m */; };
+		F665695F1B4E2AD60010D4F2 /* PresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F665695C1B4E2AD60010D4F2 /* PresentingAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,15 +49,15 @@
 		F64C736D1B4A3A41008E976F /* CJCustomPushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJCustomPushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64C73721B4A3A41008E976F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F64C73731B4A3A41008E976F /* CJCustomPushTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJCustomPushTests.m; sourceTree = "<group>"; };
-		F64C737E1B4A3A9C008E976F /* CJCustomPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJCustomPush.h; sourceTree = "<group>"; };
-		F64C737F1B4A3A9C008E976F /* CJCustomPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJCustomPush.m; sourceTree = "<group>"; };
-		F64C73811B4A3A9C008E976F /* DismissingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissingAnimator.h; sourceTree = "<group>"; };
-		F64C73821B4A3A9C008E976F /* DismissingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissingAnimator.m; sourceTree = "<group>"; };
-		F64C73841B4A3A9C008E976F /* PresentingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentingAnimator.h; sourceTree = "<group>"; };
-		F64C73851B4A3A9C008E976F /* PresentingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentingAnimator.m; sourceTree = "<group>"; };
 		F64C73891B4A3AE9008E976F /* CouponModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponModelViewController.h; sourceTree = "<group>"; };
 		F64C738A1B4A3AE9008E976F /* CouponModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponModelViewController.m; sourceTree = "<group>"; };
 		F64C738B1B4A3AE9008E976F /* CouponModelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CouponModelViewController.xib; sourceTree = "<group>"; };
+		F66569551B4E2AD60010D4F2 /* CJCustomPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJCustomPush.h; sourceTree = "<group>"; };
+		F66569561B4E2AD60010D4F2 /* CJCustomPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJCustomPush.m; sourceTree = "<group>"; };
+		F66569581B4E2AD60010D4F2 /* DismissingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissingAnimator.h; sourceTree = "<group>"; };
+		F66569591B4E2AD60010D4F2 /* DismissingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissingAnimator.m; sourceTree = "<group>"; };
+		F665695B1B4E2AD60010D4F2 /* PresentingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentingAnimator.h; sourceTree = "<group>"; };
+		F665695C1B4E2AD60010D4F2 /* PresentingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentingAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +119,7 @@
 		F64C73561B4A3A41008E976F /* CJCustomPush */ = {
 			isa = PBXGroup;
 			children = (
-				F64C737D1B4A3A9C008E976F /* Animator */,
+				F66569541B4E2AD60010D4F2 /* Classes */,
 				F64C735B1B4A3A41008E976F /* AppDelegate.h */,
 				F64C735C1B4A3A41008E976F /* AppDelegate.m */,
 				F64C735E1B4A3A41008E976F /* ViewController.h */,
@@ -161,31 +161,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F64C737D1B4A3A9C008E976F /* Animator */ = {
+		F66569541B4E2AD60010D4F2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F64C737E1B4A3A9C008E976F /* CJCustomPush.h */,
-				F64C737F1B4A3A9C008E976F /* CJCustomPush.m */,
-				F64C73801B4A3A9C008E976F /* DismissingAnimator */,
-				F64C73831B4A3A9C008E976F /* PresentingAnimator */,
+				F66569551B4E2AD60010D4F2 /* CJCustomPush.h */,
+				F66569561B4E2AD60010D4F2 /* CJCustomPush.m */,
+				F66569571B4E2AD60010D4F2 /* DismissingAnimator */,
+				F665695A1B4E2AD60010D4F2 /* PresentingAnimator */,
 			);
-			path = Animator;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		F64C73801B4A3A9C008E976F /* DismissingAnimator */ = {
+		F66569571B4E2AD60010D4F2 /* DismissingAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				F64C73811B4A3A9C008E976F /* DismissingAnimator.h */,
-				F64C73821B4A3A9C008E976F /* DismissingAnimator.m */,
+				F66569581B4E2AD60010D4F2 /* DismissingAnimator.h */,
+				F66569591B4E2AD60010D4F2 /* DismissingAnimator.m */,
 			);
 			path = DismissingAnimator;
 			sourceTree = "<group>";
 		};
-		F64C73831B4A3A9C008E976F /* PresentingAnimator */ = {
+		F665695A1B4E2AD60010D4F2 /* PresentingAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				F64C73841B4A3A9C008E976F /* PresentingAnimator.h */,
-				F64C73851B4A3A9C008E976F /* PresentingAnimator.m */,
+				F665695B1B4E2AD60010D4F2 /* PresentingAnimator.h */,
+				F665695C1B4E2AD60010D4F2 /* PresentingAnimator.m */,
 			);
 			path = PresentingAnimator;
 			sourceTree = "<group>";
@@ -327,11 +327,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F64C73601B4A3A41008E976F /* ViewController.m in Sources */,
-				F64C73881B4A3A9C008E976F /* PresentingAnimator.m in Sources */,
 				F64C738C1B4A3AE9008E976F /* CouponModelViewController.m in Sources */,
+				F665695E1B4E2AD60010D4F2 /* DismissingAnimator.m in Sources */,
+				F665695D1B4E2AD60010D4F2 /* CJCustomPush.m in Sources */,
+				F665695F1B4E2AD60010D4F2 /* PresentingAnimator.m in Sources */,
 				F64C735D1B4A3A41008E976F /* AppDelegate.m in Sources */,
-				F64C73861B4A3A9C008E976F /* CJCustomPush.m in Sources */,
-				F64C73871B4A3A9C008E976F /* DismissingAnimator.m in Sources */,
 				F64C735A1B4A3A41008E976F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
