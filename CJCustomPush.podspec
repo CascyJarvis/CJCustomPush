@@ -23,8 +23,7 @@ Pod::Spec.new do |s|
  
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/CascyJarvis/CJCustomPush.git", :tag => "0.0.2" }
-  #  s.source   = { :git => "$HOME/CJCustomPush", :tag=>"0.0.1"}
+  s.source       = { :git => "https://github.com/CascyJarvis/CJCustomPush.git", :branch => "master" }
 
   s.source_files  = "CJCustomPush/Classes", "CJCustomPush/Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
@@ -33,6 +32,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   
-  s.dependency "pop", "~> 1.0.0"
+  s.dependency "pop", "~> 1.0.7"
 
 end
